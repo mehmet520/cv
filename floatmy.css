@@ -1,0 +1,20 @@
+*  { box-sizing: border-box;}
+header { 
+    width: 100%; background-color: rgb(131, 178, 218); height: 5rem;
+}
+header>h1 { 
+    padding-left:2em; color: red
+}
+/* h2 {margin-bottom: 2px; padding: 2px;} */
+nav {width: 100%; background-color: yellow; height: 2.5rem; }
+main { padding: 10px; padding-bottom: 12em; float:left; height: 75vh; width: 80%; background-color:whitesmoke; }
+article { margin-bottom: 2rem; }
+nav>p {margin:0; padding-left: 2em; }
+aside { position:fixed; right: 0; top:140px; height: 80%; background-color: rgb(54, 134, 54); width:20% ; float: right; }
+footer {position: fixed; width: 100%; background-color: rgb(196, 169, 169); height:5em; bottom:0;}
+body, html { width: 100%; height: 99%; /*margin: 0;*/ hyphens:auto;}
+.spalte { width:32%; float:left; padding: 10px; margin: 2px; background:rgb(234, 248, 213) ;box-sizing: border-box;}
+/* p {margin-top:0; margin: 2px;} */
+h2+p { margin-top:0;}
+/* div { border:} */
+@media only screen and (max-width:800px) {article { float:none; width: 100%; margin-left:0;}
